@@ -9,7 +9,7 @@ A secure and decentralized Ethereum smart contract for managing property rental 
 * Owner can terminate lease and refund the deposit.
 * Reentrancy protection using a custom `noReentrant` modifier.
 
-## 🤖 Smart Contract Functions
+## 🧑‍💼 Smart Contract Functions
 
 ### Owner Functions:
 
@@ -25,7 +25,7 @@ A secure and decentralized Ethereum smart contract for managing property rental 
 
 * `getAgreementDetails(...)`
 
-## 🔧 Tech Stack
+## 🛠 Tech Stack
 
 * Solidity (v0.8.0)
 * Ethereum EVM
@@ -38,7 +38,21 @@ You can deploy the contract using:
 * [Remix IDE](https://remix.ethereum.org)
 * Hardhat or Truffle for local and testnet deployment
 
-## 📄 License
+
+## 🔮 Future Enhancements
+
+* Add monthly rent tracking (payment history by month)
+* Automatic late fee calculation
+* Multiple owners or property managers
+* Escrow functionality for deposit
+* Integration with IPFS to store agreement documents
+* Frontend DApp for user-friendly interface
+* Tenant rating system
+* Oracle integration for rent indexing (inflation-based)
+* Support for subletting with permission
+* Lease extension workflows
+
+  ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
